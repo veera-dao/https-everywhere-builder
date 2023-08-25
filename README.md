@@ -1,6 +1,6 @@
 # HTTPS Everywhere Builder
 
-Builds HTTPS Everywhere ruleset files for Brave.
+Builds HTTPS Everywhere ruleset files for Veera.
 
 ## Configuring
 
@@ -13,7 +13,7 @@ If there are rulesets that are broken and need to be disabled, add them to the `
 
 ## Testing locally
 
-1. Copy `out/httpse.leveldb.zip` into `~/.config/BraveSoftware/Brave-Browser-Beta/oofiananboodjbbmdelgdommihjbkfag/*/*/` overwriting the existing file.
+1. Copy `out/httpse.leveldb.zip` into `~/.config/BraveSoftware/Brave-Browser-Beta/imifmkfbgdbjflacljaiepbebjdpllai/*/*/` overwriting the existing file.
 2. Delete the `httpse.leveldb` directory.
 3. Unzip `httpse.leveldb.zip`.
 4. Start the browser and ensure that <http://https-everywhere.badssl.com/> works.
@@ -21,8 +21,4 @@ If there are rulesets that are broken and need to be disabled, add them to the `
 
 ## Releasing a new version
 
-1. Connect to the Brave VPN.
-2. On Jenkins, look for the `brave-core-ext-https-everywhere-update-publish` job.
-3. Click "Build Now".
-
-Once that's done, the new extension should be available within a few minutes.
+1.Contact Veera Team
